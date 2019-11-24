@@ -57,7 +57,7 @@
 <meta property="og:site_name" content="Moustache">
 <meta property="og:description" content="导读新的一天开始">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-11-24T14:59:29.083Z">
+<meta property="og:updated_time" content="2019-11-24T16:07:40.139Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="2019-24-30">
 <meta name="twitter:description" content="导读新的一天开始">
@@ -241,10 +241,16 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2019-11-24 22:21:28 / 修改时间：22:59:29" itemprop="dateCreated datePublished" datetime="2019-11-24T22:21:28+08:00">2019-11-24</time>
+              <time title="创建时间：2019-11-24 22:21:28" itemprop="dateCreated datePublished" datetime="2019-11-24T22:21:28+08:00">2019-11-24</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2019-11-25 00:07:40" itemprop="dateModified" datetime="2019-11-25T00:07:40+08:00">2019-11-25</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
@@ -284,7 +290,7 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>135</span>
+              <span>699</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -311,7 +317,17 @@
 <p>使用<span class="label primary">标签</span>可以突出显示想要表达的内容，提高文章的<span class="label success">观赏性</span>。</p>
 <p>今天下雨了，很<span class="label default">冷</span></p>
 <p>三分钟热度不愧是我，就前几天玩的一个游戏，当我肝的没有肝的了，便失去了兴趣。有什么是能一直玩的？<span class="label danger">可能是我肝的太狠了吧</span></p>
-<span class="label danger">BUG:</span> 搜索无法使用<br><br><span class="label danger">live2d找回了在右下角↘</span>
+<span class="label danger">live2d找回了在右下角↘</span>
+<p>npm安装live2d模块后再hexo的config配置文件中需要全名配置</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">live2d: 错误</span><br><span class="line"></span><br><span class="line">hexo-helper-live2d: 正确</span><br></pre></td></tr></table></figure>
+<p>修改文件<span class="label success">hexo\themes\next\layout\_layout.swig</span></p>
+<p>加入代码 </p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;&#123; live2d() &#125;&#125;</span><br></pre></td></tr></table></figure>
+<p>我把他放在了include后面</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">  &#123;%- if theme.pjax %&#125;</span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"pjax"</span>&gt;</span></span><br><span class="line">  &#123;%- endif %&#125;</span><br><span class="line"></span><br><span class="line">  &#123;% include '_third-party/math/index.swig' %&#125;</span><br><span class="line">  &#123;% include '_third-party/quicklink.swig' %&#125;</span><br><span class="line"></span><br><span class="line">  &#123;&#123; live2d() &#125;&#125;</span><br><span class="line"></span><br><span class="line">  &#123;&#123;- next_inject('bodyEnd') &#125;&#125;</span><br><span class="line"></span><br><span class="line">  &#123;%- if theme.pjax %&#125;</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  &#123;%- endif %&#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>今天就到这里了</p>
+<span class="label danger">BUG:</span> 搜索无法使用<br><br>页面点击效果还没有修改<br><br>live2d初步修改能用明天再改细节部分<br><br><span class="label success">Good Night</span>
+
     </div>
 
     
@@ -511,7 +527,7 @@
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">48 分钟</span>
+    <span title="站点阅读时长">49 分钟</span>
 </div>
   <div class="powered-by">由 <span class="exturl theme-link" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> 强力驱动 v3.8.0
   </div>
@@ -694,6 +710,36 @@ if (document.querySelectorAll('pre.mermaid').length) {
   </script>
 
 
+  
+<div id="hexo-helper-live2d">
+  <canvas id="live2dcanvas" width="150" height="300"></canvas>
+</div>
+<style>
+  #live2dcanvas{
+    position: fixed;
+    width: 150px;
+    height: 300px;
+    opacity:0.7;
+    right: 0px;
+    z-index: 999;
+    pointer-events: none;
+    bottom: -20px;
+  }
+</style>
+<script type="text/javascript" src="/live2d/device.min.js"></script>
+<script type="text/javascript">
+const loadScript = function loadScript(c,b){var a=document.createElement("script");a.type="text/javascript";"undefined"!=typeof b&&(a.readyState?a.onreadystatechange=function(){if("loaded"==a.readyState||"complete"==a.readyState)a.onreadystatechange=null,b()}:a.onload=function(){b()});a.src=c;document.body.appendChild(a)};
+(function(){
+  if((typeof(device) != 'undefined') && (device.mobile())){
+    document.getElementById("live2dcanvas").style.width = '75px';
+    document.getElementById("live2dcanvas").style.height = '150px';
+  }else
+    if (typeof(device) === 'undefined') console.error('Cannot find current-device script.');
+  loadScript("/live2d/script.js", function(){loadlive2d("live2dcanvas", "/live2d/assets/z16.model.json", 0.5);});
+})();
+</script>
+
+
 <script>
 NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
   var GUEST = ['nick', 'mail', 'link'];
@@ -722,3 +768,6 @@ NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
 
 </body>
 </html>
+
+<!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/src/love.js"></script>

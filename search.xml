@@ -11,7 +11,17 @@
 <p>使用<span class="label primary">标签</span>可以突出显示想要表达的内容，提高文章的<span class="label success">观赏性</span>。</p>
 <p>今天下雨了，很<span class="label default">冷</span></p>
 <p>三分钟热度不愧是我，就前几天玩的一个游戏，当我肝的没有肝的了，便失去了兴趣。有什么是能一直玩的？<span class="label danger">可能是我肝的太狠了吧</span></p>
-<span class="label danger">BUG:</span> 搜索无法使用<br><br><span class="label danger">live2d找回了在右下角↘</span>]]></content>
+<span class="label danger">live2d找回了在右下角↘</span>
+<p>npm安装live2d模块后再hexo的config配置文件中需要全名配置</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">live2d: 错误</span><br><span class="line"></span><br><span class="line">hexo-helper-live2d: 正确</span><br></pre></td></tr></table></figure>
+<p>修改文件<span class="label success">hexo\themes\next\layout\_layout.swig</span></p>
+<p>加入代码 </p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;&#123; live2d() &#125;&#125;</span><br></pre></td></tr></table></figure>
+<p>我把他放在了include后面</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">  &#123;%- if theme.pjax %&#125;</span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"pjax"</span>&gt;</span></span><br><span class="line">  &#123;%- endif %&#125;</span><br><span class="line"></span><br><span class="line">  &#123;% include '_third-party/math/index.swig' %&#125;</span><br><span class="line">  &#123;% include '_third-party/quicklink.swig' %&#125;</span><br><span class="line"></span><br><span class="line">  &#123;&#123; live2d() &#125;&#125;</span><br><span class="line"></span><br><span class="line">  &#123;&#123;- next_inject('bodyEnd') &#125;&#125;</span><br><span class="line"></span><br><span class="line">  &#123;%- if theme.pjax %&#125;</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  &#123;%- endif %&#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>今天就到这里了</p>
+<span class="label danger">BUG:</span> 搜索无法使用<br><br>页面点击效果还没有修改<br><br>live2d初步修改能用明天再改细节部分<br><br><span class="label success">Good Night</span>
+]]></content>
       <categories>
         <category>日记</category>
       </categories>
