@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hltsir.top/"/>
-  <updated>2020-03-14T12:53:02.473Z</updated>
+  <updated>2020-03-14T14:24:41.069Z</updated>
   <id>http://hltsir.top/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://hltsir.top/2020/03/13/2020-3-13update/"/>
     <id>http://hltsir.top/2020/03/13/2020-3-13update/</id>
     <published>2020-03-13T14:55:33.000Z</published>
-    <updated>2020-03-14T12:53:02.473Z</updated>
+    <updated>2020-03-14T14:24:41.069Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="导读"><a href="#导读" class="headerlink" title="导读"></a><font color="red"><em>导读</em></font></h3><p>咕咕咕的我我又回来了😘<br><a id="more"></a><br><div class="note info">            <h3 id="2020-03-13"><a href="#2020-03-13" class="headerlink" title="2020-03-13"></a>2020-03-13</h3>          </div></p><p>哈哈哈哈，我又回来更新我的破博客了，next又又又更新了，我的hltsir.top博客挂了，原因是github现在强制使用https前缀的域名了，我的HTTP现在不可用导致无法解析，目前hltsir.gitee.io还是好的，可以观看。<br>最近更新的hexo，next主题也迁移了部分，更新了hexo3版本，现在尝试使用数据文件模式管理主题了，<br>bug逐渐修复中。。。。。😊</p><span class="label success">Good Night</span><div class="note info">            <h3 id="2020-03-14"><a href="#2020-03-14" class="headerlink" title="2020-03-14"></a>2020-03-14</h3>          </div><p>hltsir.top http更新https</p><p>需要申请ssl证书</p><p>重新部署ssl</p><p>参考：<span class="exturl" data-url="aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC8yOTY0NDY1Nw==" title="https://zhuanlan.zhihu.com/p/29644657">一步步教你把HTTP网站免费转成HTTPS网站<i class="fa fa-external-link"></i></span></p>]]></content>
+    <content type="html"><![CDATA[<h3 id="导读"><a href="#导读" class="headerlink" title="导读"></a><font color="red"><em>导读</em></font></h3><p>咕咕咕的我我又回来了😘<br><a id="more"></a><br><div class="note info">            <h3 id="2020-03-13"><a href="#2020-03-13" class="headerlink" title="2020-03-13"></a>2020-03-13</h3>          </div></p><p>哈哈哈哈，我又回来更新我的破博客了，next又又又更新了，我的hltsir.top博客挂了，原因是github现在强制使用https前缀的域名了，我的HTTP现在不可用导致无法解析，目前hltsir.gitee.io还是好的，可以观看。<br>最近更新的hexo，next主题也迁移了部分，更新了hexo3版本，现在尝试使用数据文件模式管理主题了，<br>bug逐渐修复中。。。。。😊</p><span class="label success">Good Night</span><div class="note info">            <h3 id="2020-03-14"><a href="#2020-03-14" class="headerlink" title="2020-03-14"></a>2020-03-14</h3>          </div><p>hltsir.top http更新https</p><p>需要申请ssl证书</p><p>重新部署ssl</p><p>参考：<span class="exturl" data-url="aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC8yOTY0NDY1Nw==" title="https://zhuanlan.zhihu.com/p/29644657">一步步教你把HTTP网站免费转成HTTPS网站<i class="fa fa-external-link"></i></span></p><p>hltsir.top 已经可以正常访问了证书有效期到6月底<br>我买的阿里的证书Symantec有效期1年<br>但是网站更新的证书为let’s encrypt authority 的<br>可能是github 那个强制https默认开启的并不是阿里的证书</p><p>现在你们访问<font color="66ccff"><a href="www.hltsir.top">hltsir.top</a></font>不再有提示是危险网站了。^_^</p>]]></content>
     
     <summary type="html">
     

@@ -15,6 +15,8 @@
 <p>需要申请ssl证书</p>
 <p>重新部署ssl</p>
 <p>参考：<span class="exturl" data-url="aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC8yOTY0NDY1Nw==" title="https://zhuanlan.zhihu.com/p/29644657">一步步教你把HTTP网站免费转成HTTPS网站<i class="fa fa-external-link"></i></span></p>
+<p>hltsir.top 已经可以正常访问了证书有效期到6月底<br>我买的阿里的证书Symantec有效期1年<br>但是网站更新的证书为let’s encrypt authority 的<br>可能是github 那个强制https默认开启的并不是阿里的证书</p>
+<p>现在你们访问<font color="66ccff"><a href="www.hltsir.top">hltsir.top</a></font>不再有提示是危险网站了。^_^</p>
 ]]></content>
       <categories>
         <category>blog</category>
