@@ -97,14 +97,18 @@
             <h3 id="2020-03-20"><a href="#2020-03-20" class="headerlink" title="2020-03-20"></a>2020-03-20</h3>
           </div>
 <p>似乎下载器aria2存在一些问题，dlna安装成功并成功通过测试。</p>
+<div class="note info">
+            <h3 id="2020-06-14"><a href="#2020-06-14" class="headerlink" title="2020-06-14"></a>2020-06-14</h3>
+          </div>
+<p>github page中使用valine评论功能leancloud服务需要修改leancloud中的设置安全中心 下的网络 把需要访问的域名都填进去 </p>
 ]]></content>
       <categories>
         <category>blog</category>
       </categories>
       <tags>
         <tag>日记</tag>
-        <tag>blog</tag>
         <tag>https</tag>
+        <tag>blog</tag>
       </tags>
   </entry>
   <entry>
@@ -268,7 +272,7 @@
 <li>打开刚才创建的文章进行编辑，同屏打开一个预览窗口<br><img data-src="https://upload-images.jianshu.io/upload_images/7263391-89f4451d1f30b308.gif?imageMogr2/auto-orient/strip" alt="编辑文章.gif"><br> 这里需要安装插件，由于我使用的是github-pages风格的文章，安装了下面的几个插件<br> <img data-src="https://upload-images.jianshu.io/upload_images/7263391-db66f86d6ccf5123.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="插件安装.png"></li>
 <li>编辑好后就是上传到博客了<br><img data-src="https://upload-images.jianshu.io/upload_images/7263391-f80447d753f8ee8d.gif?imageMogr2/auto-orient/strip" alt="上传.gif"></li>
 </ol>
-<p>我的博客地址：<span class="exturl" data-url="aHR0cHM6Ly9obHRzaXIuZ2l0ZWUuaW8v" title="https://hltsir.gitee.io/">https://hltsir.gitee.io/<i class="fa fa-external-link"></i></span> or <a href="http://hltsir.top/">http://hltsir.top/</a></p>
+<p>我的博客地址：<span class="exturl" data-url="aHR0cHM6Ly9obHRzaXIuZ2l0ZWUuaW8v" title="https://hltsir.gitee.io/">https://hltsir.gitee.io/<i class="fa fa-external-link"></i></span> or <span class="exturl" data-url="aHR0cDovL2hsdHNpci50b3Av" title="http://hltsir.top/">http://hltsir.top/<i class="fa fa-external-link"></i></span></p>
 <p>转载请注明出处！！</p>
 ]]></content>
       <categories>
@@ -295,7 +299,7 @@
 <p>bilibili：<span class="exturl" data-url="aHR0cHM6Ly9zcGFjZS5iaWxpYmlsaS5jb20vMTAxMTE1Mjg=" title="https://space.bilibili.com/10111528">呆呆箘<i class="fa fa-external-link"></i></span></p>
 <p>简书：<span class="exturl" data-url="aHR0cHM6Ly93d3cuemhpaHUuY29tL3Blb3BsZS9jb25nLWppbi15aS1ob3UtMzQtNS9hY3Rpdml0aWVz" title="https://www.zhihu.com/people/cong-jin-yi-hou-34-5/activities">从今以后<i class="fa fa-external-link"></i></span></p>
 <p>知乎：<span class="exturl" data-url="aHR0cHM6Ly93d3cuamlhbnNodS5jb20vdS9hZjYwZjQ4ZDY4MDM=" title="https://www.jianshu.com/u/af60f48d6803">墨月孤者<i class="fa fa-external-link"></i></span></p>
-<p>github-pages：<span class="exturl" data-url="aHR0cHM6Ly9obHRzaXIuZ2l0ZWUuaW8v" title="https://hltsir.gitee.io/">国内<i class="fa fa-external-link"></i></span> <a href="http://hltsir.top/">国外</a></p>
+<p>github-pages：<span class="exturl" data-url="aHR0cHM6Ly9obHRzaXIuZ2l0ZWUuaW8v" title="https://hltsir.gitee.io/">国内<i class="fa fa-external-link"></i></span> <span class="exturl" data-url="aHR0cDovL2hsdHNpci50b3Av" title="http://hltsir.top/">国外<i class="fa fa-external-link"></i></span></p>
 <p>转载请注明出处！！</p>
 ]]></content>
       <categories>
@@ -584,8 +588,8 @@
         <category>随文</category>
       </categories>
       <tags>
-        <tag>春节记事</tag>
         <tag>随文</tag>
+        <tag>春节记事</tag>
       </tags>
   </entry>
   <entry>
